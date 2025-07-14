@@ -1,0 +1,10 @@
+let name="hello";
+console.log(typeof name);
+let integer=19.90;
+console.log(typeof integer);
+let isAction=true;
+console.log(typeof isAction);
+let myVariable;
+console.log(typeof myVariable);
+let emptyValue=null;
+console.log(emptyValue);

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Welcome</h1>
+    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel eaque dolor sint. Eligendi illo officia obcaecati illum et odio quaerat fugiat cumque quidem. Id nulla, voluptatum quam sapiente pariatur rem!
+    Praesentium beatae minus necessitatibus veritatis. Quaerat sit repudiandae odio consequuntur pariatur enim, temporibus, culpa perspiciatis qui earum minus labore dolor excepturi doloremque reiciendis voluptatem quos voluptates quis blanditiis nesciunt dolores?
+    Amet praesentium ad facere aut laudantium quo, repellendus natus veniam tempora tenetur accusantium saepe quas in recusandae ea aliquam. Eos a odit sed quas fugiat enim debitis laboriosam totam inventore.
+    Mollitia, est? Hic itaque animi ex optio minima sed, quibusdam libero temporibus accusamus eos dolorum explicabo soluta placeat fugit aliquam quam sit est voluptate vitae culpa quae a repellendus natus!
+    Nobis exercitationem nam rem perferendis quas ipsum voluptatem natus saepe aliquam voluptas harum aperiam soluta sit, recusandae, vitae culpa non explicabo voluptates est, facere accusamus tenetur ratione ullam nesciunt. Repellendus.</p>
+    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit iste exercitationem vero eligendi saepe quisquam harum, amet tempora unde! Ratione exercitationem dolorem fuga alias minima quas maiores officiis corrupti ut!
+    Esse ad ipsum sit ut fugit non deserunt, sunt quaerat vitae laborum accusantium, suscipit, assumenda tenetur error! Explicabo, neque eveniet. Fugit reprehenderit explicabo deserunt expedita quae deleniti alias vero. Maxime!
+    Reprehenderit numquam expedita dolorum. Soluta debitis odit aspernatur aperiam, quidem tempore, asperiores illum repellendus rem accusamus delectus at. Delectus, consectetur minima! Harum ullam nam perferendis numquam eum aperiam ipsa odio.
+    Quia commodi minus veritatis! Necessitatibus libero dolor provident eos harum quibusdam excepturi, enim, magni optio est nesciunt vitae, saepe aliquid voluptates impedit dolorum iste. Sapiente temporibus quaerat harum error est.
+    A rem quasi natus dolores praesentium, tempora recusandae velit eos ex itaque et ut corporis exercitationem excepturi illo reprehenderit quaerat repudiandae saepe facilis possimus, eius nulla nobis, harum aut. Voluptatem.</p>
+    <p class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa illum est voluptatum deserunt repellendus assumenda excepturi, rerum possimus ad quod minus asperiores accusantium labore, odio incidunt adipisci, quam amet earum.
+    Repudiandae, rem tempore id facere quibusdam eius ad cumque, illum dolore nostrum odio harum repellendus provident corporis delectus blanditiis deserunt at assumenda nesciunt minus eaque omnis accusamus? Blanditiis, ipsam qui?</p>
+    <script>
+        let j=()=>{
+            const p=document.getElementsById("heading");
+            p.style.backgroundColor="green";
+            p.style.color="white";
+        }
+        const g=document.getElementsByClassName("text");
+        for(let i5=0;i5<g.length;i5++){
+            g[i5].style.color="darkblue";
+            g[i5].style.backgroundColor="pink";
+        }
+        document.body.style.backgroundColor="pink";
+        const s=document.querySelectorAll(".text");
+        for(let k=0;k<s.length;k++){
+            s[k].style.fontstyle="italic";
+        }
+        let x=()=>{
+            constb=document.querySelector(".parag");
+            b.style.color="yellow";
+            b.style.backgroundColor="green";
+        }
+    </script>
+    <button onclick="j()">on click</button><br>
+    <button onclick="x()">click here to change the paragraph</button>
+</body>
+</html>

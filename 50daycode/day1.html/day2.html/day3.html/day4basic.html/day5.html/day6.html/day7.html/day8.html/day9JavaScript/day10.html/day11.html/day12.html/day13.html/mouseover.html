@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myElement">Hover over me</p>
+    <script>
+        /*mouseover*/
+    document.getElementById("myElement").addEventListener("mouseover",function(){
+        this.style.backgroundColor="lightblue";
+        this.style.fontStyle="italic";
+    });
+    </script>
+    <!--mouseout-->
+    <script>
+    document.getElementById("myElement").addEventListener("mouseout",function(){
+        this.style.backgroundColor="lightgreen";
+        this.style.fontStyle="italic";
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    /*function using Tenary*/
+    let n=Number(prompt("enter the no."));
+    let a=function(){
+        return num=(n%2==0)?"even":"odd";
+    }
+    console.log(a());
+    /*using Arrow function*/
+    let b=Number(prompt("enter the no."));
+    let p=()=>{
+        return num=(b%2==0)?"even":"odd";
+    }
+    console.log(p());
+    /*factoral*/
+    let l=Number(prompt("enter the no."));
+    let m=()=>{
+        let result=1;
+        for(let d=1;d<=l;d++)
+        {
+            result*=d;
+        }
+        return result;
+    }
+    console.log(m());
+   </script> 
+</body>
+</html>
